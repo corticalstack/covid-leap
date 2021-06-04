@@ -1,0 +1,11 @@
+export KAGGLE_USERNAME=jonpaulboyd
+export KAGGLE_KEY=2c3b443dc2e57d60deebdb3df266bcf7
+export AZ_RP_PSQL_HOST=aci-eur-frc-aa-ss-psql.postgres.database.azure.com
+export AZ_RP_PSQL_USER=adminuser@aci-eur-frc-aa-ss-psql
+export AZ_RP_PSQL_PWD=ThXyt7ng
+export AZ_RP_MLW_BLOB_CONNECT_STRING=DefaultEndpointsProtocol=https;AccountName=acieurfrcaasssthns;AccountKey=FUD/6WXUL+05BWpnJI9k09DNvyl8VgHbYgHnZfCBCEAOoG6geRNAE3jSYe4C5YFPwmPS0e44M6v+3Jzn2SP4Fg==;EndpointSuffix=core.windows.net
+export AZ_RP_MLW_SVC_PRINCIPAL_KEY=UmOO0.xQaa_g_-2MgTwS_p72EN1EVJg6Tv
+export AZ_RP_ES_HOST=https://2ef6f411bbcc465b947e48b48db1518c.francecentral.azure.elastic-cloud.com:9243
+export AZ_RP_ES_USER=elastic
+export AZ_RP_ES_PWD=GQY7H5JXJGa0dTAlytYGP61V
+

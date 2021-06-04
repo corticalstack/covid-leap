@@ -1,0 +1,8 @@
+streamlit
+streamlit_metrics
+pandas
+numpy
+seaborn
+matplotlib
+sqlalchemy
+psycopg2-binary

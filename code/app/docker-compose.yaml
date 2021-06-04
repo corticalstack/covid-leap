@@ -1,0 +1,14 @@
+services:
+  covid-leap-app:
+    build:
+      context: .
+      args:
+        - az_rp_mlw_blob_connect_string=${AZ_RP_MLW_BLOB_CONNECT_STRING}
+        - az_rp_mlw_svc_principal_key=${AZ_RP_MLW_SVC_PRINCIPAL_KEY}
+        - az_rp_psql_host=${AZ_RP_PSQL_HOST}
+        - az_rp_psql_user=${AZ_RP_PSQL_USER}
+        - az_rp_psql_pwd=${AZ_RP_PSQL_PWD}
+        - az_rp_es_host=${AZ_RP_ES_HOST}
+        - az_rp_es_user=${AZ_RP_ES_USER}
+        - az_rp_es_pwd=${AZ_RP_ES_PWD}
+    image: acieurfrcaassacr.azurecr.io/covid-leap-app:latest
